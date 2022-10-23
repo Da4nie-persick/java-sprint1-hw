@@ -67,7 +67,7 @@ public class Main {
                     System.out.println("Введите номер месяца от 1 до 12");
                 }
                 stepTracker.quantityStepsInMonth(month);
-                stepTracker.sumStepsInMonth(month);
+                System.out.println("Всего в этом месяце вы прошли:" + stepTracker.sumStepsInMonth(month));
                 stepTracker.maxSteps(month);
                 stepTracker.averageValueSteps(month);
                 stepTracker.distance(month);
